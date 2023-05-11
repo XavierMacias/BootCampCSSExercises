@@ -35,7 +35,12 @@ body {
 .header-nav__items {
     display: flex;
     align-items: center;
-    transform: translateX(100px);
+}
+
+.header-nav__items--3 {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
 }
 
 .tlf {
@@ -47,7 +52,7 @@ body {
 }
 
 .header-nav__items--move2 {
-    transform: translateX(500px);
+    transform: translateX(400px);
 }
 
 .header-list {
@@ -77,6 +82,19 @@ body {
     color: gray;
 }
 
+.header-list__text2 {
+    font-weight: normal;
+    color: gray;
+}
+
+.header-list__text:hover {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-underline-offset: 10px;
+    color: black;
+    font-weight: bold;
+}
+
 .header-list__text--selected {
     text-decoration: underline;
     text-decoration-color: green;
@@ -102,13 +120,15 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    transform: translate(80px,70px);
+    transform: translateY(70px);
+    padding-left: 100px;
 }
 
 .destiny {
     width: calc(26% - 40px);
     margin: 20px;
     background-color: white;
+    padding-right: 28px;
 }
 
 .destiny__text {
@@ -138,6 +158,11 @@ body {
     transform: translate(200px,-10px);
 }
 
+.destiny__btn:hover {
+    background-color: green;
+    color: white;
+}
+
 .ofertas-box {
     background-color: white;
     width: 60%;
@@ -164,6 +189,11 @@ body {
     border: 1px solid rgba(192, 175, 175, 0.4);
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.boxes-links__item:hover {
+    border-color: black;
+    background-color: green;
 }
 
 .boxes-links__img {
