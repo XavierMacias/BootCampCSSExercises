@@ -34,21 +34,21 @@ body {
 
 .secondary-box {
     /*background-color: black;*/
-    width: 13vw;
+    width: 15vw;
     height: 90vh;
-    transform: translate(30px, 20px);
+    transform: translate(0px, 20px);
 }
 
 .search {
     background-color: goldenrod;
     width: 100%;
-    height: 15%;
+    height: 13%;
 }
 
 .search__top {
     background-color: black;
     width: 100%;
-    height: 17%;
+    height: 18%;
 }
 
 .search__text {
@@ -84,7 +84,7 @@ body {
     margin-top: 10px;
     background-color: goldenrod;
     width: 100%;
-    height: 25%;
+    height: 27%;
 }
 
 .nav__top {
@@ -97,6 +97,64 @@ body {
     color: white;
     padding-left: 10px;
     padding-top: 5px;
+}
+
+.nav__item2 {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav__el {
+    height: 20%;
+    width: 125%;
+    padding-top: 11px;
+    border: solid;
+    border-color: white;
+    border-width: thin;
+    transform: translateX(-40px);
+}
+
+.share {
+    margin-top: 10px;
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+}
+
+.share__top {
+    background-color: black;
+    width: 100%;
+    height: 32%;
+}
+
+.share__text {
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.list-share {
+    display: flex;
+    align-items: baseline;
+}
+
+.fb-img {
+    width: 110%;
+    height: 60%;
+    transform: translate(-10px,10px);
+}
+
+.tw-img {
+    width: 25%;
+    height: 50%;
+    transform: translate(20px,10px);
+}
+
+.pt-img {
+    width: 100%;
+    height: 100%;
+    transform: translate(-55px,10px);
 }
 
 .init-nav {
