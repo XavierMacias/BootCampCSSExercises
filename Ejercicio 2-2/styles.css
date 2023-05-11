@@ -1,0 +1,32 @@
+.text-s {
+    width: 50%;
+}
+
+.general-s {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.list-s {
+    display: flex;
+    justify-content: left;
+}
+
+.bt-submit {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.label-s {
+    display: block;
+}
+
+legend {
+    display: none;
+}

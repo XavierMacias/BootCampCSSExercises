@@ -1,0 +1,45 @@
+.s-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s-item {
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+.img-s {
+    width: 90%;
+    height: 80%;
+}
+
+.center{
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nobold {
+    font-weight: 100;
+}
+
+.s-foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s-nav {
+    text-align: right;
+}
+
+.thing {
+    padding: 20px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}

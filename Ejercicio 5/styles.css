@@ -1,0 +1,36 @@
+.article1 {
+    display: flex;
+    justify-content: left;
+    padding: 50px;
+}
+
+.new {
+    padding: 10px;
+}
+
+.news2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.individual-new {
+    width: calc(25% - 20px);
+    margin: 10px;
+    padding-left: 60px;
+}
+
+.feature-s {
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: gray;
+}
+
+.img-s {
+    width: 70%;
+    height: 70%;
+}
+
+.text-s {
+    margin-top: 0px;
+}

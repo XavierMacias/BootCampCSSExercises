@@ -1,0 +1,49 @@
+.s-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-title {
+    font-weight: bold;
+}
+
+.s-foot {
+    display: flex;
+    justify-content: space-between
+}
+
+.s-terms {
+    padding: 10px;
+}
+
+.google-bt {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.facebook-bt {
+    background-color: blue;
+    color: white;
+}
+
+.s-serv {
+    color: cornflowerblue;
+}
+
+.bt-create {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-style: dotted;
+    border-radius: 24px;
+}
+
+header {
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+
+footer {
+    padding-top: 50px;
+}

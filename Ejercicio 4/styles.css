@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-nav::before {
+    width: 2000px;
+    height: 1px;
+    background-color: cyan;
+    position: absolute;
+    content: "";
+    top: 100%;
+}
+
+.header-nav__icon {
+    width: 20%;
+}
+
+.header-nav__icon2 {
+    width: 10%;
+}
+
+.header-nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav__list2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-nav__itemlist {
+    padding: 20px;
+    color: white;
+}
+
+.title-text {
+    color: white;
+    margin: 10px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title-text--big {
+    font-size: 30px;
+}
+
+.header-nav__search {
+    padding: 20px;
+    transform: translate(310%,20%);
+}
+
+.header-nav__user {
+    padding: 20px;
+    transform: translate(240%,20%);
+}
+
+.header-nav__location {
+    padding: 20px;
+    transform: translate(170%,20%);
+}
+
+.header-nav__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(20%,0%);
+}
+
+.image_back {
+    display: inline-block;
+    background-image: url("src/mainfoto.jpeg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+ }
+
+.btn-descover {
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-text {
+    position: absolute;
+    bottom: 100px;
+}
+
+.serie-cars {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.news {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+.text-cars {
+    color: gray;
+    opacity: 0.5;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.text-footer {
+    color: gray;
+    opacity: 0.5;
+}
+
+.text-cars--selected {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 15px;
+}
+
+.list-types {
+    display: flex;
+    align-items: baseline;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.cars-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cars-gallery__item {
+    margin: 10px;
+    width: calc(25%-20px);
+}
+
+.cars-gallery__image {
+    width: 300px;
+    height: 210px;
+}
+
+.cars-gallery__item--back {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    width: calc(25%-40px);
+    border: 1px solid rgba(72, 63, 63, 0.2);
+}
+
+.news-gallery__image {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.cars-gallery__text {
+    text-align: center;
+}
+
+.cars-gallery__item--2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 40px;
+    width: calc(25%-80px);
+    border: 1px solid rgba(72, 63, 63, 0.2);
+}
+
+.news-gallery__image--2 {
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.list-flex__icon {
+    width: 9%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-flex {
+    display:flex;
+    transform: translate(50px, 300px);
+    justify-content: space-around;
+}
+
+.block-list {
+    background-color:lightgray;
+    margin: 10px;
+    padding-bottom: 60px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.last-section {
+    background-color:lightgray;
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+
+.last-section::before {
+    width: 2000px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    content: "";
+}
+
+.last-section__contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    transform: translate(10px, 350px);
+}
+
+.footer-info__text {
+    color: blue;
+    padding: 20px;
+}
+
