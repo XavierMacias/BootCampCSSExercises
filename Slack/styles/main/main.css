@@ -25,6 +25,7 @@ header nav .bar_img {
 
 .presentation {
   background-color: rgb(84, 21, 84);
+  padding-bottom: 10px;
 }
 .presentation__text {
   color: white;
@@ -45,15 +46,64 @@ header nav .bar_img {
   font-size: 18px;
 }
 .presentation .btns {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .presentation .btns__reg {
-  padding: 15px 40px 15px;
+  padding: 20px 50px 20px;
   font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-}
-.presentation .btns__reg--google {
-  background-color: rgb(66, 133, 244);
   color: white;
+  font-weight: bold;
+  background-color: rgb(66, 133, 244);
+  position: relative;
+  margin: 5px;
+}
+.presentation .btns__reg--mail {
+  padding: 25px 50px 25px;
+  color: black;
+  background-color: white;
+}
+.presentation .btns__reg .google_img {
+  position: absolute;
+  width: 35px;
+  right: 87%;
+  bottom: 21%;
+}
+
+.trust-slack {
+  background-color: rgb(244, 237, 228);
+  padding: 30px;
+}
+.trust-slack h3 {
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.trust-slack__imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.trust-slack__imgs .trust-slack__airbnb {
+  width: 35%;
+}
+.trust-slack__imgs .trust-slack__nasa {
+  width: 20%;
+}
+.trust-slack__imgs .trust-slack__uber {
+  width: 25%;
+}
+.trust-slack .trust-slack__york {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 90%;
+}
+.trust-slack .trust-slack__york--etsy {
+  width: 25%;
 }/*# sourceMappingURL=main.css.map */

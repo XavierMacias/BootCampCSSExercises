@@ -1,5 +1,6 @@
 .presentation {
     background-color: $purple;
+    padding-bottom: 10px;
 
     &__text {
         color: $white;
@@ -23,19 +24,31 @@
     }
 
     .btns {
-        display: block;
+        @include flexCenter(column, space-between, center);
 
         &__reg {
-            padding: 15px 40px 15px;
+            padding: 20px 50px 20px;
             font-size: 15px;
+            color: $white;
             font-weight: bold;
-            text-align: center;
+            background-color: $blue;
+            position: relative;
+            margin: 5px;
     
-            &--google {
-                background-color: $blue;
-                color: $white;
+            &--mail {
+                padding: 25px 50px 25px;
+                color: $black;
+                background-color: $white;
+            }
+
+            .google_img {
+                position: absolute;
+                width: 35px;
+                right: 87%;
+                bottom: 21%;
             }
         }
+
     }
     
 }
