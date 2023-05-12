@@ -1,0 +1,15 @@
+header {
+    background-color: $purple;
+    nav {
+        @include flexCenter(row, space-between, center);
+
+        .logo_img {
+            width: 20%;
+            padding: 20px;
+        }
+        .bar_img {
+            width: 10%;
+            padding: 20px;
+        }
+    }
+}
