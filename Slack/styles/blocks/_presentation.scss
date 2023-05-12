@@ -1,0 +1,41 @@
+.presentation {
+    background-color: $purple;
+
+    &__text {
+        color: $white;
+        font-size: 45px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        &--cont {
+            color: $gold;
+        }
+    }   
+
+    .google_img {
+        width: 20px;
+    }
+
+    &__desc {
+        color: $white;
+        text-align: center;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .btns {
+        display: block;
+
+        &__reg {
+            padding: 15px 40px 15px;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+    
+            &--google {
+                background-color: $blue;
+                color: $white;
+            }
+        }
+    }
+    
+}
