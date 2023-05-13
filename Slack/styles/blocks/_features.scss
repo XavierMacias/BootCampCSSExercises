@@ -1,0 +1,57 @@
+.features {
+    background-color: $beige;
+    padding: 40px 10px 40px;
+    @include flexCenter(column, space-between, center);
+
+    &__text {
+        text-align: center;
+        font-family: $arial;
+        padding-bottom: 10px;
+    }
+    &__card {
+        background-color: $white;
+        width: 75%;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        position: relative;
+
+        &img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+    }
+    &__cardfunc {
+        margin-top: 10px;
+        color: $gray;
+        font-size: 15px;
+    }
+    &__carddesc {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    &__cardexam {
+        margin-top: 30px;
+        color: $blue;
+        font-size: 15px;
+    }
+
+    .circles {
+        padding-top: 25px;
+        @include flexCenter(row, space-between, center);
+
+        .circle {
+            width: 15px;
+            height: 15px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: $beige2;
+
+            &--selected {
+                background-color: $purple;
+            }
+        }
+    }
+}
