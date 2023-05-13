@@ -1,0 +1,28 @@
+footer {
+    background-color: $white;
+    padding-top: 20px;
+
+    .foot-text {
+        padding: 15px;
+        font-size: 15px;
+
+        &--link {
+            color: $blue;
+        }
+    }
+
+    .foot_imgs {
+        @include flexCenter(row, space-between, center);
+
+        .foot_img {
+            width: 8%;
+            padding: 20px;
+        }
+    }
+
+    p {
+        margin-left: 15px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}

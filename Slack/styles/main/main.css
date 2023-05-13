@@ -141,6 +141,8 @@ header nav .bar_img {
 }
 .sections-buttons--final {
   background-color: rgb(84, 21, 84);
+  padding-bottom: 50px;
+  border-radius: 0% 0% 30% 30%;
 }
 .sections-buttons__text {
   font-family: Arial, Helvetica, sans-serif;
@@ -289,4 +291,47 @@ header nav .bar_img {
 }
 .features .circles .circle--selected {
   background-color: rgb(84, 21, 84);
+}
+
+.whyslack {
+  background-color: white;
+}
+.whyslack__img {
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 15%;
+}
+.whyslack__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 10px;
+}
+
+footer {
+  background-color: white;
+  padding-top: 20px;
+}
+footer .foot-text {
+  padding: 15px;
+  font-size: 15px;
+}
+footer .foot-text--link {
+  color: rgb(66, 133, 244);
+}
+footer .foot_imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .foot_imgs .foot_img {
+  width: 8%;
+  padding: 20px;
+}
+footer p {
+  margin-left: 15px;
+  font-size: 12px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
