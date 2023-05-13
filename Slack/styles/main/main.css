@@ -106,4 +106,120 @@ header nav .bar_img {
 }
 .trust-slack .trust-slack__york--etsy {
   width: 25%;
+}
+
+.description {
+  background-color: rgb(244, 237, 228);
+}
+.description__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 20px;
+}
+.description__text .description__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+.description__text .description__title--desc {
+  font-size: 17px;
+}
+.description__text .description__title--link {
+  font-size: 17px;
+  color: rgb(66, 133, 244);
+}
+
+.full-img {
+  width: 100%;
+}
+
+.sections-buttons {
+  background-color: white;
+  padding: 60px 20px 20px;
+}
+.sections-buttons__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.sections-buttons__text--desc {
+  font-size: 18px;
+}
+.sections-buttons__pack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.sections-buttons__pack .sections-buttons__know {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 10px;
+  background-color: rgb(84, 21, 84);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.sections-buttons__pack .sections-buttons__know--talk {
+  background-color: white;
+  color: rgb(84, 21, 84);
+}
+
+.percentatges {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.percentatges__number {
+  color: rgb(84, 21, 84);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+.percentatges__desc {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.texts {
+  padding: 20px;
+}
+.texts__cita {
+  font-style: italic;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.texts__name {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.texts__pos {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+.texts__see {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 60px;
+  color: rgb(66, 133, 244);
+}
+.texts__anot {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 15px;
+  color: grey;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

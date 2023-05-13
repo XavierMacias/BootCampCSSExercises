@@ -1,0 +1,90 @@
+.sections-buttons {
+    background-color: $white;
+    padding: 60px 20px 20px;
+
+    &__text {
+        font-family: $arial;
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+
+        &--desc {
+            font-size: 18px;
+        }
+    }   
+
+    &__pack {
+        @include flexCenter(column, space-between, center);
+        padding: 5px;
+
+        .sections-buttons__know {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+            margin: 10px;
+            background-color: $purple;
+            color: $white;
+            font-weight: bold;
+            font-size: 14px;
+            border-radius: 10px;
+
+            &--talk {
+                background-color: $white;
+                color: $purple;
+            }
+        }
+    }
+}
+
+.percentatges {
+    @include flexCenter(column, space-between, center);
+    padding: 50px;
+
+    &__number {
+        color: $purple;
+        font-weight: bold;
+        font-family: $arial;
+        font-size: 45px;
+    }
+
+    &__desc {
+        text-align: center;
+        font-family: $arial;
+        font-size: 14px;
+    }
+}
+
+.texts {
+    padding: 20px;
+
+    &__cita {
+        font-style: italic;
+        padding-bottom: 20px;
+        font-size: 18px;
+        font-family: $arial;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 16px;
+        font-family: $arial;
+    }
+    &__pos {
+        font-size: 16px;
+        font-family: $arial;
+        padding-bottom: 10px;
+    }
+    &__see {
+        font-size: 16px;
+        font-family: $arial;
+        padding-bottom: 60px;
+        color: $blue;
+    }
+    &__anot {
+        font-size: 13px;
+        font-family: $arial;
+        padding-bottom: 15px;
+        color: $gray;
+        text-align: center;
+    }
+}

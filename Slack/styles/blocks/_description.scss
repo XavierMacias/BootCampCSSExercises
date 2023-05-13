@@ -1,0 +1,26 @@
+.description {
+    background-color: $beige;
+
+    &__text {
+        @include flexCenter(column, space-between, left);
+        padding: 20px;
+
+        .description__title {
+            font-family: $arial;
+            font-size: 30px;
+            padding: 10px;
+
+            &--desc {
+                font-size: 17px;
+            }
+            &--link {
+                font-size: 17px;
+                color: $blue;
+            }
+        }
+    }
+}
+
+.full-img {
+    width: 100%;
+}
