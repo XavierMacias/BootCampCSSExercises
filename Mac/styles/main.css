@@ -28,11 +28,12 @@ nav .nav_text {
   background-color: black;
   background-size: cover;
   margin-top: 100px;
-  height: 300px;
+  /*height: 300px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
 .big-publi__text {
   color: white;
@@ -132,13 +133,18 @@ nav .nav_text {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .gallery__book {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+.gallery__book--down {
+  padding-top: 33px;
 }
 .gallery__book .gallery_img {
   width: 180px;
@@ -146,8 +152,75 @@ nav .nav_text {
 .gallery__book .gallery_name {
   font-size: 23px;
   margin-bottom: 7px;
+  inline-size: 200px;
+  text-align: center;
 }
 .gallery__book .gallery_chip {
   font-size: 14px;
   margin-bottom: 12px;
+}
+.gallery__book .gallery_btn {
+  color: white;
+  background-color: blue;
+  padding: 5px 15px 5px;
+  border-radius: 25%;
+  margin-top: 5px;
+}
+.gallery__book .gallery_info {
+  margin-top: 15px;
+  color: blue;
+}
+.gallery__book--line::after {
+  content: "";
+  background-color: grey;
+  margin-top: 30px;
+  width: 180px;
+  height: 2px;
+  opacity: 0.4;
+}
+.gallery__since {
+  margin-top: -18px;
+}
+.gallery .gallery-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 30px;
+}
+.gallery .gallery-screen__item {
+  padding: 20px 0px 20px;
+}
+.gallery .gallery-screen__pixel {
+  font-size: 23px;
+}
+.gallery .gallery-screen__imgs {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+.gallery .gallery-screen__img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery .gallery-screen__img--dup {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.gallery .buymac {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.gallery .buymac__text {
+  padding: 10px 30px 10px;
+  font-size: 21px;
+  color: blue;
+}
+.gallery .buymac__text:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
 }/*# sourceMappingURL=main.css.map */
