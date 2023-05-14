@@ -1,0 +1,21 @@
+nav {
+    width: 80%;
+    margin-left: 10%;
+
+    .nav {
+        display: flex;
+        text-align: center;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .nav_img {
+        width: 18%;
+    }
+    
+    .nav_text {
+        padding: 10px;
+        font-size: 15px;
+        white-space:nowrap; 
+    }
+}
