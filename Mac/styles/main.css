@@ -102,4 +102,52 @@ nav .nav_text {
 }
 .big-publi-ext--other {
   margin-top: 500px;
+}
+
+.gallery {
+  background-color: white;
+  padding-top: 420px;
+}
+.gallery__title {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+.gallery__types {
+  padding-top: 40px;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+.gallery__item {
+  font-size: 20px;
+  font-weight: 100;
+  padding: 30px;
+}
+.gallery__item--sel {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+.gallery__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery__book {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.gallery__book .gallery_img {
+  width: 180px;
+}
+.gallery__book .gallery_name {
+  font-size: 23px;
+  margin-bottom: 7px;
+}
+.gallery__book .gallery_chip {
+  font-size: 14px;
+  margin-bottom: 12px;
 }/*# sourceMappingURL=main.css.map */

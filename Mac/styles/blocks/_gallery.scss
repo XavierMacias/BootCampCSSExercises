@@ -1,0 +1,51 @@
+.gallery {
+    background-color: white;
+    padding-top: 420px;
+
+    &__title {
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__types {
+        padding-top: 40px;
+        display: flex;
+        padding: 30px;
+        justify-content: center;
+    }
+    &__item {
+        font-size: 20px;
+        font-weight: 100;
+        padding: 30px;
+        &--sel {
+            text-decoration: underline;
+            text-underline-offset: 20px;
+        }
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__book {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .gallery_img {
+            width: 180px;
+        }
+        .gallery_name {
+            font-size: 23px;
+            margin-bottom: 7px;
+        }
+        .gallery_chip {
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+    }
+}
