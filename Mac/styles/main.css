@@ -28,13 +28,13 @@ nav .nav_text {
   background-color: black;
   background-size: cover;
   margin-top: 100px;
-  width: 100vw;
+  width: 100%;
   /*height: 300px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 30px 0px 30px;
 }
 .big-publi__text {
   color: white;
@@ -81,7 +81,7 @@ nav .nav_text {
   text-align: center;
 }
 .big-publi-ext__img {
-  width: 100vw;
+  width: 100%;
 }
 .big-publi-ext__btns {
   padding-top: 20px;
@@ -464,4 +464,72 @@ nav .nav_text {
 .images__text .images__link2 {
   color: blue;
   font-size: 15px;
+}
+
+.atwork {
+  padding: 30px;
+  text-align: center;
+}
+.atwork__block {
+  position: relative;
+  margin-bottom: 30px;
+}
+.atwork__img {
+  width: 80%;
+}
+.atwork__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.atwork__title {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.atwork__desc {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: lightgray;
+}
+footer .footer_list {
+  margin: auto;
+  width: 70%;
+}
+footer .footer_list__item {
+  list-style: decimal;
+  margin-bottom: 15px;
+}
+footer .footer_list__text {
+  font-size: 15px;
+  color: gray;
+}
+footer .footer_list::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: gray;
+}
+footer .lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+footer .lists_item {
+  padding: 5px 0px 5px;
+}
+footer .textbold {
+  font-weight: bold;
+}
+footer .text-buy {
+  padding-left: 150px;
+  color: gray;
 }/*# sourceMappingURL=main.css.map */

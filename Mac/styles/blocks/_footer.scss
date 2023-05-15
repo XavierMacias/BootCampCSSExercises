@@ -1,0 +1,46 @@
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgray;
+
+    .footer_list {
+        margin: auto;
+        width: 70%;
+
+        &__item {
+            list-style: decimal;
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 15px;
+            color: gray;
+        }
+
+        &::after {
+            content: "";
+            width: 70%;
+            height: 2px;
+            background-color: gray;
+        }
+    }
+
+    .lists {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        &_item {
+            padding: 5px 0px 5px;
+        }
+        
+    }
+    .textbold {
+        font-weight: bold;
+    }
+    .text-buy {
+        padding-left: 150px;
+        color: gray;
+    }
+    
+}
