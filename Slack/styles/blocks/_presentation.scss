@@ -1,5 +1,23 @@
-.presentation {
+.block1 {
     background-color: $purple;
+    &--color {
+        background-color: $beige;
+    }
+    &--color2 {
+        background-color: $white;
+    }
+    &--inv {
+        flex-direction: row-reverse;
+    }
+    @include tablet {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.presentation {
     padding-bottom: 10px;
 
     &__text {
@@ -21,6 +39,15 @@
         text-align: center;
         padding: 15px;
         font-size: 18px;
+
+        &--opc {
+            display: none;
+            @include desktop {
+                display: block;
+                text-align: center;
+                padding: 20px;
+            }
+        }
     }
 
     .btns {

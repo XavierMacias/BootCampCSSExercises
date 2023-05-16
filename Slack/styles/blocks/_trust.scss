@@ -9,29 +9,44 @@
     }
 
     &__imgs {
-        @include flexCenter(row, space-between, center);
+        @include flexCenter(row, center, center);
         padding: 15px;
+        flex-wrap: wrap;
 
         .trust-slack__airbnb {
             width: 35%;
+            padding: 10px;
+            @include tablet {
+                width: 10%;
+            }
         }
         .trust-slack__nasa {
             width: 20%;
+            padding: 10px;
+            @include tablet {
+                width: 10%;
+            }
         }
         .trust-slack__uber {
             width: 25%;
+            padding: 10px;
+            @include tablet {
+                width: 10%;
+            }
         }
-    }
-
-    .trust-slack__york {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 20px;
-        width: 90%;
-
-        &--etsy {
-            width: 25%;
+        .trust-slack__york {
+            width: 90%;
+            padding: 10px;
+            @include tablet {
+                width: 30%;
+            }
+    
+            &--etsy {
+                width: 25%;
+                @include tablet {
+                    width: 10%;
+                }
+            }
         }
     }
     

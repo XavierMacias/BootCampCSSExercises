@@ -4,3 +4,15 @@
     justify-content: $justify;
     align-items: $align;
 }
+// SCSS Mixins
+@mixin tablet {
+  @media only screen and (min-width: #{$layout_bp_tablet}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: #{$layout_bp_desktop}) {
+    @content;
+  }
+}

@@ -15,16 +15,87 @@ header nav {
   align-items: center;
 }
 header nav .logo_img {
-  width: 30%;
+  width: 90px;
   padding: 20px;
+}
+@media only screen and (min-width: 1280px) {
+  header nav .logo_img {
+    width: 150px;
+  }
 }
 header nav .bar_img {
   width: 10%;
   padding: 20px;
 }
+@media only screen and (min-width: 1280px) {
+  header nav .bar_img {
+    display: none;
+  }
+}
+header .nav {
+  display: none;
+  color: white;
+  justify-content: center;
+  margin-right: 10px;
+  padding-left: 120px;
+}
+@media only screen and (min-width: 1280px) {
+  header .nav {
+    display: flex;
+  }
+}
+header .nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: -64px 48px 0px;
+}
+header .nav__item {
+  padding: 20px;
+  font-weight: bold;
+}
+header .nav__item:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+header .nav__button {
+  color: white;
+  background-color: rgb(84, 21, 84);
+  border-color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10%;
+  border-width: 2px;
+}
+header .nav__button--inv {
+  background-color: white;
+  color: rgb(84, 21, 84);
+}
+
+.block1 {
+  background-color: rgb(84, 21, 84);
+}
+.block1--color {
+  background-color: rgb(244, 237, 228);
+}
+.block1--color2 {
+  background-color: white;
+}
+.block1--inv {
+  flex-direction: row-reverse;
+}
+@media only screen and (min-width: 800px) {
+  .block1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+}
 
 .presentation {
-  background-color: rgb(84, 21, 84);
   padding-bottom: 10px;
 }
 .presentation__text {
@@ -44,6 +115,16 @@ header nav .bar_img {
   text-align: center;
   padding: 15px;
   font-size: 18px;
+}
+.presentation__desc--opc {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .presentation__desc--opc {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
 }
 .presentation .btns {
   display: flex;
@@ -84,28 +165,54 @@ header nav .bar_img {
 .trust-slack__imgs {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 15px;
+  flex-wrap: wrap;
 }
 .trust-slack__imgs .trust-slack__airbnb {
   width: 35%;
+  padding: 10px;
+}
+@media only screen and (min-width: 800px) {
+  .trust-slack__imgs .trust-slack__airbnb {
+    width: 10%;
+  }
 }
 .trust-slack__imgs .trust-slack__nasa {
   width: 20%;
+  padding: 10px;
+}
+@media only screen and (min-width: 800px) {
+  .trust-slack__imgs .trust-slack__nasa {
+    width: 10%;
+  }
 }
 .trust-slack__imgs .trust-slack__uber {
   width: 25%;
+  padding: 10px;
 }
-.trust-slack .trust-slack__york {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
+@media only screen and (min-width: 800px) {
+  .trust-slack__imgs .trust-slack__uber {
+    width: 10%;
+  }
+}
+.trust-slack__imgs .trust-slack__york {
   width: 90%;
+  padding: 10px;
 }
-.trust-slack .trust-slack__york--etsy {
+@media only screen and (min-width: 800px) {
+  .trust-slack__imgs .trust-slack__york {
+    width: 30%;
+  }
+}
+.trust-slack__imgs .trust-slack__york--etsy {
   width: 25%;
+}
+@media only screen and (min-width: 800px) {
+  .trust-slack__imgs .trust-slack__york--etsy {
+    width: 10%;
+  }
 }
 
 .description {
@@ -133,6 +240,11 @@ header nav .bar_img {
 
 .full-img {
   width: 100%;
+}
+@media only screen and (min-width: 800px) {
+  .full-img {
+    width: 35%;
+  }
 }
 
 .sections-buttons {

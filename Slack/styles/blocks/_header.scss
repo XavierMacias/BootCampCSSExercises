@@ -4,12 +4,61 @@ header {
         @include flexCenter(row, space-between, center);
 
         .logo_img {
-            width: 30%;
+            width: 90px;
             padding: 20px;
+
+            @include desktop {
+                width: 150px;
+            }
         }
         .bar_img {
             width: 10%;
             padding: 20px;
+
+            @include desktop {
+                display: none;
+            }
+        }
+    }
+
+    .nav {
+        display: none;
+        color: white;
+        justify-content: center;
+        margin-right: 10px;
+        padding-left: 120px;
+
+        @include desktop {
+            display: flex;
+        }
+
+        &__list {
+            @include flexCenter(row, space-between, center);
+            margin: -64px 48px 0px;
+        }
+        &__item {
+            padding: 20px;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+                text-underline-offset: 10px;
+            }
+        }
+        &__button {
+            color: $white;
+            background-color: $purple;
+            border-color: $white;
+            padding: 10px;
+            font-weight: bold;
+            font-family: $arial;
+            border-radius: 10%;
+            border-width: 2px;
+            &--inv {
+                background-color: $white;
+                color: $purple;
+            }
         }
     }
 }
+
