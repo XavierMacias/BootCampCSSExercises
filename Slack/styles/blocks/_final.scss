@@ -5,9 +5,26 @@
         margin-top: 60px;
         margin-left: 20px;
         width: 15%;
+        @include tablet {
+            width: 5%;
+        }
     }
+
+    &__texts {
+        @include tablet {
+            @include flexCenter(row, space-between, center);
+            flex-wrap: wrap;
+        }
+    }
+    
     &__text {
         @include flexCenter(row, space-between, center);
         padding: 20px 20px 10px;
+    }
+
+    &__arrow {
+        @include tablet {
+            display: none;
+        }
     }
 }

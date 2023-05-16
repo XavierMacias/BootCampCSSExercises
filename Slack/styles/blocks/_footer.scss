@@ -2,6 +2,13 @@ footer {
     background-color: $white;
     padding-top: 20px;
 
+    .foot_items {
+        @include tablet {
+            @include flexCenter(row, flex-start, flex-start);
+            text-align: left;
+        }
+    }
+
     .foot-text {
         padding: 15px;
         font-size: 15px;
@@ -13,10 +20,18 @@ footer {
 
     .foot_imgs {
         @include flexCenter(row, space-between, center);
+        @include tablet {
+            @include flexCenter(row, flex-end, flex-end);
+            text-align: right;
+        }
 
         .foot_img {
             width: 8%;
             padding: 20px;
+            @include tablet {
+                padding: 5px;
+                width: 2%;
+            }
         }
     }
 

@@ -8,18 +8,29 @@
         font-family: $arial;
         padding-bottom: 10px;
     }
+    &__cards {
+        @include flexCenter(row, center, center);
+        flex-wrap: nowrap;
+    }
     &__card {
         background-color: $white;
-        width: 75%;
-        padding-bottom: 10px;
-        padding-top: 15px;
+        width: 50%;
         position: relative;
+        padding: 15px 10px 10px;
+        margin: 0px 10px 0px;
 
         &img {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 90%;
+        }
+
+        &--occ {
+            display: none;
+            @include tablet {
+                display: inline;
+            }
         }
     }
     &__cardfunc {
@@ -52,6 +63,9 @@
             &--selected {
                 background-color: $purple;
             }
+        }
+        @include tablet {
+            display: none;
         }
     }
 }
